@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/JakyeRU/snowflake" target="_blank">
-        <img src="https://raw.githubusercontent.com/JakyeRU/snowflake/main/Snowflake-logos_transparent.png" height=200>
+        <img src="https://raw.githubusercontent.com/JakyeRU/snowflake/main/.github/logo/Snowflake-logos_transparent.png" height=200>
     </a>
 </p>
 
