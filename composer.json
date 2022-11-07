@@ -1,0 +1,33 @@
+{
+    "name": "jakyeru/snowflake",
+    "description": "Snowflake is a package for Laravel that allows Twitter's 64 bit snowflake to be used as primary identifier for models.",
+    "type": "library",
+    "require": {
+        "illuminate/support": ">=8.0",
+        "php": ">=8.0",
+        "godruoyi/php-snowflake": ">=2.1.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jakyeru\\Snowflake\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jakye",
+            "email": "jakye@jakye.me"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jakyeru\\Snowflake\\SnowflakeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "8.0.x-dev"
+    }
+}
