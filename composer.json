@@ -11,7 +11,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jakyeru\\Snowflake\\": "src/"
+            "Jakyeru\\Snowflake\\": "src/",
+            "Jakyeru\\snowflake\\": "src/"
         }
     },
     "authors": [
