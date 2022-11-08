@@ -46,3 +46,17 @@ class User extends Authenticatable
     use HasSnowflakes;
 }
 ```
+
+# Contributing
+Thank you for considering contributing to Snowflake! You can read the contribution guide [here](https://github.com/JakyeRU/snowflake/blob/main/.github/CONTRIBUTING.md).
+
+# Code of Conduct
+In order to ensure that the community is welcoming to everyone, please review and abide by the [Code of Conduct](https://github.com/JakyeRU/snowflake/blob/main/.github/CODE_OF_CONDUCT.md).
+
+# Security Vulnerabilities
+If you need to report a security vulnerability please read our [Security Policy](https://github.com/JakyeRU/snowflake/blob/main/.github/SECURITY.md).
+
+# License
+snowflake is open-sourced software licensed under the [MIT](https://github.com/JakyeRU/snowflake/blob/main/LICENSE) license.
+
+If you encounter any other error(s), please open an issue on [GitHub](https://github.com/JakyeRU/snowflake/issues/new/choose).
