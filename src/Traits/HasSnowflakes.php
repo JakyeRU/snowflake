@@ -1,6 +1,6 @@
 <?php
 
-namespace Jakyeru\snowflake\Traits;
+namespace Jakyeru\Snowflake\Traits;
 
 trait HasSnowflakes
 {

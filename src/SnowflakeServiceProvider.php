@@ -1,6 +1,6 @@
 <?php
 
-namespace Jakyeru\snowflake;
+namespace Jakyeru\Snowflake;
 
 use Godruoyi\Snowflake\LaravelSequenceResolver;
 use Godruoyi\Snowflake\Snowflake;
