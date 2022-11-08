@@ -2,6 +2,7 @@
     "name": "jakyeru/snowflake",
     "description": "Snowflake is a package for Laravel that allows Twitter's 64 bit snowflake to be used as primary identifier for models.",
     "type": "library",
+    "homepage": "https://github.com/jakyeru/snowflake",
     "require": {
         "illuminate/support": ">=8.0",
         "php": ">=8.0",
