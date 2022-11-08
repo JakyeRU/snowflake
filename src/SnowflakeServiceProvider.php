@@ -11,7 +11,7 @@ class SnowflakeServiceProvider extends ServiceProvider {
     {
         $this->app->singleton('snowflake', function ($app) {
             return (new Snowflake(config('snowflake.data_center', 1), config('snowflake.worker_node', 1)))
-                ->setStartTimeStamp(strtotime('2022-01-01') * 1000)
+                ->setStartTimeStamp(strtotime(config('snowflake.start_date', '2022-01-01')) * 1000)
                 ->setSequenceResolver(new LaravelSequenceResolver($app->get('cache.store')));
         });
     }
