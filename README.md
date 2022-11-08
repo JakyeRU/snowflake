@@ -47,6 +47,11 @@ class User extends Authenticatable
 }
 ```
 
+# Publishing Configuration
+```shell
+php artisan vendor:publish --tag=config
+```
+
 # Contributing
 Thank you for considering contributing to Snowflake! You can read the contribution guide [here](https://github.com/JakyeRU/snowflake/blob/main/.github/CONTRIBUTING.md).
 
