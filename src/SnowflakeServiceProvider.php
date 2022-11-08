@@ -14,6 +14,10 @@ class SnowflakeServiceProvider extends ServiceProvider {
                 ->setStartTimeStamp(strtotime(config('snowflake.start_date', '2022-01-01')) * 1000)
                 ->setSequenceResolver(new LaravelSequenceResolver($app->get('cache.store')));
         });
+
+        if ($this->app->runningInConsole()) {
+            $this->registerConfiguration();
+        }
     }
 
     public function boot()
@@ -25,6 +29,6 @@ class SnowflakeServiceProvider extends ServiceProvider {
     {
         $this->publishes([
             __DIR__ . '/config/snowflake.php' => config_path('snowflake.php')
-        ], 'config');
+        ], 'snowflake-config');
     }
 }
