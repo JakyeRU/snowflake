@@ -49,7 +49,7 @@ class User extends Authenticatable
 
 # Publishing Configuration
 ```shell
-php artisan vendor:publish --tag=config
+php artisan vendor:publish --tag=snowflake-config
 ```
 
 # Contributing
