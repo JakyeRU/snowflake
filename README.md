@@ -23,6 +23,11 @@ Snowflake is a package for Laravel that allows <a href="https://en.wikipedia.org
   *  **Snowflake        - 0.4 milliseconds**
   * [Source](https://itnext.io/choosing-the-right-data-type-means-of-generating-unique-primary-keys-d7aac92968c6)
 
+# Installation
+```shell
+composer require jakyeru/snowflake
+```
+
 # Usage 
 ```php
 resolve('snowflake')->id(); // ---> 112871594573041664
