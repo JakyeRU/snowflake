@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/workflow/status/JakyeRU/snowflake/Run%20tests?style=for-the-badge" alt="build">
-    <img src="https://img.shields.io/github/v/release/JakyeRU/snowflake?color=blue&style=for-the-badge" alt="release">
+    <img src="https://img.shields.io/github/v/release/jakyeru/snowflake?logo=github&color=blue&style=for-the-badge" alt="release">
 </p>
 
 # About snowflake
@@ -21,7 +20,6 @@ Snowflake is a package for Laravel that allows <a href="https://en.wikipedia.org
   *  Sortable UUID v4 - 8.3 milliseconds
   *  ULID             - 3.1 milliseconds
   *  **Snowflake        - 0.4 milliseconds**
-  * [Source](https://itnext.io/choosing-the-right-data-type-means-of-generating-unique-primary-keys-d7aac92968c6)
 
 # Installation
 ```shell
