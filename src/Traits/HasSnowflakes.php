@@ -19,4 +19,15 @@ trait HasSnowflakes
     {
         return false;
     }
+    
+    public function mergeCasts($casts)
+    {
+        $casts = $this->casts;
+
+        if (!isset($casts['id'])) {
+            $this->casts = array_merge($casts, [
+                'id' => 'string',
+            ]);
+        }
+    }
 }
